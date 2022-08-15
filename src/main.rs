@@ -9,8 +9,6 @@ use serde_json;
 use tokio::signal;
 use clap::Parser;
 
-//const FILEPATH:&str = "G:/area_code.txt";
-//const TMPFILE:&str = "G:/url_list.txt";
 const INDEXADDR:&str = "http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2021/";
 static GRADE:[&str;5] = ["province","city","county","town","village"];
 
