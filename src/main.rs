@@ -9,7 +9,7 @@ use serde_json;
 use tokio::signal;
 use clap::Parser;
 
-const INDEXADDR:&str = "http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2021/";
+const INDEXADDR:&str = "http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2022/";
 static GRADE:[&str;5] = ["province","city","county","town","village"];
 
 #[derive(Parser, Debug)]
